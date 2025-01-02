@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Survey Form
+        </title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <fieldset>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </fieldset>
+         <fieldset>  
+        <form id="survey-form" required>
+             <label for="name-label" id="name-label">Name</label><input placeholder="Ingresa tu nombre" id="name" type="text" required></input>
+
+            <label for="email-label" id="email-label">Email</label><input placeholder="Ingresa tu email" id="email" type="email" required></input>
+
+            <label for="number-lable" id="number-label">Age</label><input placeholder="Ingresa tu edad" id="number" type="number" value="number" min="13" max ="120"required></input>
+            <label>Gender</label>
+            <select id="dropdown">
+                <option value="">Select</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select>
+            </fieldset> 
+            <fieldset>
+        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+            <label id="survey-form" ><input class ="radio " id="youtube" type="radio" checked value="number" name="socila-media">Youtube</input></label>
+            <abel id="survey-form"><input class ="radio " id="twitter" type="radio" value="number" name="socila-media">Twitter</label>
+
+            <legend>What would you like to see improved? (Check all that apply)
+
+</legend>
+<input id="survey-form" type="checkbox" value="choise"></input>
+<input id="survey-form" type="checkbox" value="choise"></input>
+
+<textarea id="surevy-form"></textarea>
+<input id="submit" type="submit" value="submit"></input>
+            </fieldset> 
+        </form>
+    </body>
+</html>
